@@ -75,7 +75,7 @@ The system consists of four main tables:
 
 
 
-## DDL (Create Tables)
+## DDL (Create Tables Sample)
 CREATE TABLE Customers (
     Customer_ID INT PRIMARY KEY,
     Customer_Name VARCHAR(50) NOT NULL,
@@ -89,7 +89,6 @@ CREATE TABLE Orders (
     FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID)
 );
 
-And Same logic is applied to the entire tables
 ِىي 
 
 
