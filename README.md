@@ -88,8 +88,7 @@ CREATE TABLE Orders (
     Customer_ID INT,
     FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID)
 );
-
-ِىي 
+**Same Logic is applied to entire tables**
 
 
 ## DML Example
