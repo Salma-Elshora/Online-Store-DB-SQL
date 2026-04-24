@@ -89,7 +89,7 @@ CREATE TABLE Orders (
     FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID)
 );
 
-**And Same logic is applied to the entire tables**
+*And Same logic is applied to the entire tables*
 ِىي 
 
 
